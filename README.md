@@ -1,7 +1,10 @@
 # Gulliver Traveller 
 
 
-Website desenvolvido como projeto do primeiro ano da Faculdade de Sistemas
+
+<img src="img/traveller-logo.png">
+
+Website desenvolvido como projeto do primeiro ano da faculdade de sistemas para internet.
 
 <h3> Back - End </>
 
