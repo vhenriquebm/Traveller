@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+  
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+ <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+	
+	
+	
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+	integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	crossorigin="anonymous"> 
+	
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+            
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous"/>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<title>O Mundo é para todos - Traveller</title>
+
+<link rel="icon" href="imagens/traveller-logo100.png">
+
+</head>
+
+<body>
+
+	<main>
+	
+		<div>
+		
+			<header>
+			
+				<!-- inicio Cabecalho -->
+				<nav
+					class="navbar navbar-expand-md navbar-light  navbar-transparente">
+					
+					<div class="container">
+					
+						<a href="index.html" class="navbar-brand"> <img
+							src="imagens/traveller-logo.png" width="142">
+						</a>
+						
+						<button class="navbar-toggler" data-toggle="collapse"
+							data-target="#nav-principal">
+							
+							<i class="fas fa-bars text-white"></i>
+							
+						</button>
+
+						<div class="collapse navbar-collapse" id="nav-principal">
+
+							<ul class="navbar-nav ml-auto">
+
+								<li class="nav-item"><a href="index.html" class="nav-link"
+									style="font-size: 20px;">Home</a></li>
+							
+								<li class="nav-item"><a href="vidaNoturna.html"
+									class="nav-link" style="font-size: 20px;">Vida Noturna</a></li>
+									
+								<li class="nav-item"><a href="" class="nav-link"
+									style="font-size: 20px;">Viagens</a></li>
+
+								<li class="nav-item divisor" style="font-size: 20px;"></li>
+
+								<li class="nav-item"><a href="" class="nav-link"
+									style="font-size: 20px;">Sobre nós</a></li>
+									
+								<li class="nav-item"><a href="login.html" class="nav-link"
+									style="font-size: 20px;">Entrar</a></li>
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+				</nav>
+				
+			</header>
+
+			<!--/fim Cabecalho -->
+
+		</div>
+		
+	</main>
+	
+	<div style="width: 1000px; height: 80px;"></div>
+
+	<!--/home -->
+
+	<div class="container">
+	
+	<h2 style="color:white;">Entrar</h2>
+	
+	<!-- Inicio do formulário -->
+		
+		<form method ="post" action="login" style="width:80%;" >
+		
+			<div class="form-group">
+				
+				<br> <label for="email" class="form-label"
+					style="color: white; font-size:20px;">E-mail</label> <input name="email"
+					id="email" type="email" class="form-control" "
+					placeholder="Digite aqui o seu e-mail" style="width:60%;" >
+			</div>
+			
+			
+			<div class="form-group">
+
+				<label for="senha" class="form-label" style="color: white; font-size:20px;">Senha</label>
+
+				<input name="senha" type="password" class="form-control"
+					id="senha"
+					placeholder="Digite aqui a sua senha" style="width:60%;">
+			</div>
+
+
+		<a href="cadastro.html" style="color:white;">Ainda não tem conta? cadastre-se</a>
+
+			
+		
+			<div>
+				<button type="submit" class="btn-lg btn-primary mt-5"  onclick="validar()">Entrar</button>
+			</div>
+		</form>
+
+	</div>
+
+	<br>
+
+	<!--   </div>
+
+    </div>
+    </div>
+    </section> -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<img src="imagens/traveller-logo100.png" width="142">
+				</div>
+				<div class="col-md-2">
+					<h4>company</h4>
+					<ul class="navbar-nav">
+						<li><a href="">Sobre</a></li>
+						<li><a href="">Empregos</a></li>
+						<li><a href="">Imprensa</a></li>
+						<li><a href="">Novidades</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>comunidades</h4>
+					<ul class="navbar-nav">
+						<li><a href="">Dicas</a></li>
+						<li><a href="">Desenvolvedores</a></li>
+						<li><a href="">Marcas</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>links uteis</h4>
+					<ul class="navbar-nav">
+						<li><a href="">Ajuda</a></li>
+						<li><a href="">Presentes</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li><a href=""><img src="imagens/facebook.png"></a></li>
+						<li><a href=""><img src="imagens/twitter.png"></a></li>
+						<li><a href=""><img src="imagens/instagram.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

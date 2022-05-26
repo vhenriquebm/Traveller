@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+	integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<title>O Mundo é para todos - Traveller</title>
+
+<link rel="icon" href="imagens/traveller-logo100.png">
+
+</head>
+
+<body>
+
+	<main>
+
+		<div>
+
+			<header>
+
+				<!-- inicio Cabecalho -->
+				<nav
+					class="navbar navbar-expand-md navbar-light  navbar-transparente">
+
+					<div class="container">
+
+						<a href="index.html" class="navbar-brand"> <img
+							src="imagens/traveller-logo.png" width="142">
+						</a>
+
+						<button class="navbar-toggler" data-toggle="collapse"
+							data-target="#nav-principal">
+
+							<i class="fas fa-bars text-white"></i>
+
+						</button>
+
+						<div class="collapse navbar-collapse" id="nav-principal">
+
+							<ul class="navbar-nav ml-auto">
+
+								<li class="nav-item"><a href="index.html" class="nav-link"
+									style="font-size: 20px;">Home</a></li>
+
+								<li class="nav-item"><a href="vidaNoturna.html"
+									class="nav-link" style="font-size: 20px;">Vida Noturna</a></li>
+
+								<li class="nav-item"><a href="" class="nav-link"
+									style="font-size: 20px;">Viagens</a></li>
+
+								<li class="nav-item divisor" style="font-size: 20px;"></li>
+
+								<li class="nav-item"><a href="" class="nav-link"
+									style="font-size: 20px;">Sobre nós</a></li>
+
+								<li class="nav-item"><a href="login.html" class="nav-link"
+									style="font-size: 20px;">Entrar</a></li>
+							</ul>
+
+						</div>
+
+					</div>
+
+				</nav>
+
+			</header>
+
+			<!--/fim Cabecalho -->
+
+		</div>
+
+	</main>
+
+	<div style="width: 1000px; height: 80px;"></div>
+
+	<!--/home -->
+
+	<div class="container">
+
+		<h2 style="color: white;" class="text-center">Cadastre - se</h2>
+
+		<!-- Inicio do formulário -->
+
+	 <div class="container">
+	 
+
+        
+  	<form name="cadastro" action="insert"
+			style="width: 80%; margin: 10px auto;" class="text-center">
+			
+			
+			  <div class="form-group">
+
+				<br> <label for="email" class="form-label"
+					style="color: white; font-size: 20px;">Nome</label> <input
+					name="nome" type="text" class="form-control" id="nome"
+					placeholder="Digite aqui o seu nome">
+			</div>
+			
+        
+        <div class="form-group">
+
+				<br> <label for="email" class="form-label"
+					style="color: white; font-size: 20px;">E-mail</label> <input
+					name="email" type="text" class="form-control" id="email"
+					placeholder="Digite aqui a sua senha">
+			</div>
+
+
+			<div class="form-group">
+
+				<label for="senha" class="form-label"
+					style="color: white; font-size: 20px;">Senha</label> <input
+					name="senha" type="password" class="form-control" id="senha"
+					placeholder="Digite aqui o seu endereço">
+			</div>
+        
+        
+            <div class="form-group">
+                <label for="cep" style="color: white; font-size:20px;">CEP</label>
+                <input type="text" class="form-control" maxlength="9" id="cep" name="CEP" placeholder="Digite aqui o seu CEP">
+            </div>
+            <div class="form-group">
+                <label for="logradouro" style="color: white; font-size:20px;">Rua</label>
+                <input type="text" class="form-control" id="logradouro" name="endereco" placeholder="Digite aqui a sua rua">
+            </div>
+            
+            <div class="form-group">
+                <label for="numero" style="color: white; font-size:20px;">Número</label>
+                <input type="text" class="form-control" id="numero" name="numero" placeholder="Digite aqui o número da sua rua">
+            </div>
+            
+            <div class="form-group">
+                <label for="complemento" style="color: white; font-size:20px;">Complemento</label>
+                <input type="text" class="form-control" id="complemento" name="complemento" placeholder="Digite aqui o complemento">
+            </div>
+            
+            <div class="form-group">
+                <label for="bairro" style="color: white; font-size:20px;">Bairro</label>
+                <input type="text" class="form-control" id="bairro" placeholder="Digite aqui o seu bairro" name="bairro">
+            </div>
+            <div class="form-group">
+                <label for="localidade" style="color: white; font-size:20px;">Cidade</label>
+                <input type="text" class="form-control" id="localidade" name="cidade" placeholder="Digite aqui a sua cidade">
+            </div>
+            <div class="form-group">
+                <label for="UF" style="color: white; font-size:20px;">UF</label>
+                <input type="text" class="form-control" id="uf" name="UF" placeholder="Digite aqui a sua UF">
+            </div>
+            
+            <div class="">
+				<button class="btn-lg btn-primary mt-5" onclick="validar()">Cadastrar</button>
+			</div>
+            
+        </form>
+   
+
+
+
+
+	<!-- Rodapé -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<img src="imagens/traveller-logo100.png" width="142">
+				</div>
+				<div class="col-md-2">
+					<h4>company</h4>
+					<ul class="navbar-nav">
+						<li><a href="">Sobre</a></li>
+						<li><a href="">Empregos</a></li>
+						<li><a href="">Imprensa</a></li>
+						<li><a href="">Novidades</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>comunidades</h4>
+					<ul class="navbar-nav">
+						<li><a href="">Dicas</a></li>
+						<li><a href="">Desenvolvedores</a></li>
+						<li><a href="">Marcas</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>links uteis</h4>
+					<ul class="navbar-nav">
+						<li><a href="">Ajuda</a></li>
+						<li><a href="">Presentes</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li><a href=""><img src="imagens/facebook.png"></a></li>
+						<li><a href=""><img src="imagens/twitter.png"></a></li>
+						<li><a href=""><img src="imagens/instagram.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	    <script src="scripts/validacep.js"></script>
+	    <script src="scripts/validador.js"></script>
+	    
+	
+	
+</body>
+
+</html>
