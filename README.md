@@ -2,13 +2,13 @@
 
 
 
-<img src="img/traveller-logo.png">
+<img src="WebContent/imagens/traveller-logo.png" style="width:150px;" height="150px;" >
 
-Website desenvolvido como projeto do primeiro ano da faculdade de sistemas para internet.
+<p>Website desenvolvido como projeto do primeiro ano da faculdade de sistemas para internet.</p>
 
-<h3> Back - End </>
+<h3> Back - End </h3>
 
-Integração com Java, Tomcat 9.0, Mysql e Mysql Workbench através da IDE Eclipse.
+<p>Integração com Java, Tomcat 9.0, Mysql e Mysql Workbench através da IDE Eclipse.</p>
   
   
   
