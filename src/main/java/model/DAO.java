@@ -50,7 +50,6 @@ public class DAO {
 
 			System.out.println("Erro ao conectar ao banco de dados");
 			System.out.println(e);
-
 		}
 	}
 
@@ -89,6 +88,7 @@ public class DAO {
 		}
 
 	}
+	
 
 	public Usuario lerUsuario(Usuario usuario) {
 
@@ -118,19 +118,6 @@ public class DAO {
 				pst.setString(10, usuario.getBairro());
 
 				con.close();
-
-//				usuario.setNome(rs.getString(1));
-//				usuario.setEmail(rs.getString(2));
-//				usuario.setSenha(rs.getString(3));
-//				usuario.setEndereco(rs.getString(4));
-//				usuario.setCidade(rs.getString(5));
-//				usuario.setUF(rs.getString(6));
-//				usuario.setCEP(rs.getString(7));
-//				usuario.setNumero(rs.getString(8));
-//				usuario.setComplemento(rs.getString(9));
-//				usuario.setBairro(rs.getString(10));
-
-				// return resultado;
 
 			} else {
 

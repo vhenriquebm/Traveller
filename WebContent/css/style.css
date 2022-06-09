@@ -207,6 +207,14 @@ footer {
     height: 50vh;
 }
 
+.campo__pesquisa_viagens {
+    background-image: url(../img/feliz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+
 .titulo {
     font-size: 2.2em;
     font-weight: 700;

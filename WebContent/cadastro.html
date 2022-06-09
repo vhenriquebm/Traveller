@@ -31,71 +31,50 @@
 
 <body>
 
-	<main>
+		<header>
+  
+    <nav class="navbar navbar-expand-md navbar-light  navbar-transparente">
+      <div class="container-fluid">
 
-		<div>
+        <a href="index.html" class="navbar-brand">
+          <img src="imagens/traveller-logo.png" style="width:70px; height:70px; margin: 10px;" >
+        </a>
 
-			<header>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fas fa-bars text-white"></i>
+        </button>
 
-				<!-- inicio Cabecalho -->
-				<nav
-					class="navbar navbar-expand-md navbar-light  navbar-transparente">
+        <div class="collapse navbar-collapse" id="nav-principal" style="margin:10px">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" style="font-size: 20px;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="vidaNoturna.html" class="nav-link" style="font-size: 20px;">Vida Noturna</a>
+            </li>
+            <li class="nav-item">
+              <a href="viagens.html" class="nav-link" style="font-size: 20px;">Viagens</a>
+            </li>
 
-					<div class="container">
 
-						<a href="index.html" class="navbar-brand"> <img
-							src="imagens/traveller-logo.png" width="142">
-						</a>
+           
+            <li class="nav-item">
+              <a href="login.html" class="nav-link" style="font-size:20px; ">Entrar</a>
+            </li>
+          </ul>
+        </div>
 
-						<button class="navbar-toggler" data-toggle="collapse"
-							data-target="#nav-principal">
-
-							<i class="fas fa-bars text-white"></i>
-
-						</button>
-
-						<div class="collapse navbar-collapse" id="nav-principal">
-
-							<ul class="navbar-nav ml-auto">
-
-								<li class="nav-item"><a href="index.html" class="nav-link"
-									style="font-size: 20px;">Home</a></li>
-
-								<li class="nav-item"><a href="vidaNoturna.html"
-									class="nav-link" style="font-size: 20px;">Vida Noturna</a></li>
-
-								<li class="nav-item"><a href="" class="nav-link"
-									style="font-size: 20px;">Viagens</a></li>
-
-								<li class="nav-item divisor" style="font-size: 20px;"></li>
-
-								<li class="nav-item"><a href="" class="nav-link"
-									style="font-size: 20px;">Sobre nós</a></li>
-
-								<li class="nav-item"><a href="login.html" class="nav-link"
-									style="font-size: 20px;">Entrar</a></li>
-							</ul>
-
-						</div>
-
-					</div>
-
-				</nav>
-
-			</header>
+      </div>
+    </nav>
+  </header>
 
 			<!--/fim Cabecalho -->
 
-		</div>
-
-	</main>
-
-	<div style="width: 1000px; height: 80px;"></div>
 
 	<!--/home -->
 
 
-		<h2 style="color: white;" class="text-center">Cadastre - se</h2>
+		<h2 style="color: white; margin: 40px;" class="text-center">Cadastre - se</h2>
 
 		<!-- Inicio do formulário -->
 
@@ -167,23 +146,24 @@
             </div>
             
             <div class="">
-				<button class="btn-lg btn-primary mt-5" onclick="validar()">Cadastrar</button>
+				<button class="btn-lg btn-primary mt-3" onclick="validar()">Cadastrar</button>
 			</div>
             
         </form>
    
-
-
-
+</div>
 
 	<!-- Rodapé -->
 
 	<footer>
 		<div class="container">
+
 			<div class="row">
 				<div class="col-md-2">
-					<img src="imagens/traveller-logo100.png" width="142">
+					<img src="imagens/traveller-logo100.png" style="width: 80px; height: 80px;">
 				</div>
+
+
 				<div class="col-md-2">
 					<h4>company</h4>
 					<ul class="navbar-nav">
